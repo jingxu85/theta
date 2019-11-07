@@ -5,21 +5,21 @@ import (
 	"testing"
 	"time"
 
-	"github.com/thetatoken/theta/consensus"
-	"github.com/thetatoken/theta/core"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/ledger"
-	"github.com/thetatoken/theta/rlp"
-	"github.com/thetatoken/theta/store/database/backend"
-	"github.com/thetatoken/theta/store/kvstore"
+	"github.com/jingxu85/theta/consensus"
+	"github.com/jingxu85/theta/core"
+	"github.com/jingxu85/theta/crypto"
+	"github.com/jingxu85/theta/ledger"
+	"github.com/jingxu85/theta/rlp"
+	"github.com/jingxu85/theta/store/database/backend"
+	"github.com/jingxu85/theta/store/kvstore"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/dispatcher"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/dispatcher"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/blockchain"
-	"github.com/thetatoken/theta/p2p/simulation"
-	"github.com/thetatoken/theta/p2p/types"
+	"github.com/jingxu85/theta/blockchain"
+	"github.com/jingxu85/theta/p2p/simulation"
+	"github.com/jingxu85/theta/p2p/types"
 )
 
 type MockMessageConsumer struct {

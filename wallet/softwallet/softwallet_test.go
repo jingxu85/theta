@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/common"
+	"github.com/jingxu85/theta/common"
 )
 
 func TestPlainSoftWalletBasics(t *testing.T) {

@@ -21,8 +21,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/store/database"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/store/database"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

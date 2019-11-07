@@ -29,14 +29,14 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/thetatoken/theta/rlp"
+	"github.com/jingxu85/theta/rlp"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/crypto"
-	tp "github.com/thetatoken/theta/ledger/types"
-	"github.com/thetatoken/theta/wallet/coldwallet/keystore/trezor"
-	"github.com/thetatoken/theta/wallet/types"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/crypto"
+	tp "github.com/jingxu85/theta/ledger/types"
+	"github.com/jingxu85/theta/wallet/coldwallet/keystore/trezor"
+	"github.com/jingxu85/theta/wallet/types"
 )
 
 const MAX_PASSPHRASE_LENGTH = 50

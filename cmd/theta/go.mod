@@ -1,4 +1,4 @@
-module github.com/thetatoken/theta
+module github.com/jingxu85/theta
 
 require (
 	github.com/aerospike/aerospike-client-go v1.36.0
@@ -37,8 +37,8 @@ require (
 	github.com/spf13/viper v1.3.2
 	github.com/stretchr/testify v1.3.0
 	github.com/syndtr/goleveldb v1.0.0
-	github.com/thetatoken/theta/common v0.0.0
-	github.com/thetatoken/theta/rpc/lib/rpc-codec/jsonrpc2 v0.0.0
+	github.com/jingxu85/theta/common v0.0.0
+	github.com/jingxu85/theta/rpc/lib/rpc-codec/jsonrpc2 v0.0.0
 	github.com/tidwall/pretty v1.0.0 // indirect
 	github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c // indirect
 	github.com/xdg/stringprep v0.0.0-20180714160509-73f8eece6fdc // indirect
@@ -52,6 +52,6 @@ require (
 	gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce
 )
 
-replace github.com/thetatoken/theta/rpc/lib/rpc-codec/jsonrpc2 v0.0.0 => ./rpc/lib/rpc-codec/jsonrpc2/
+replace github.com/jingxu85/theta/rpc/lib/rpc-codec/jsonrpc2 v0.0.0 => ./rpc/lib/rpc-codec/jsonrpc2/
 
-replace github.com/thetatoken/theta/common v0.0.0 => ./common
+replace github.com/jingxu85/theta/common v0.0.0 => ./common

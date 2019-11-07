@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/p2p/netutil"
+	"github.com/jingxu85/theta/p2p/netutil"
 )
 
 func createTempFileName(prefix string) string {

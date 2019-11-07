@@ -6,10 +6,10 @@ import (
 
 	log "github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/ledger/types"
-	"github.com/thetatoken/theta/store/database/backend"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/crypto"
+	"github.com/jingxu85/theta/ledger/types"
+	"github.com/jingxu85/theta/store/database/backend"
 )
 
 func TestLedgerStateBasics(t *testing.T) {

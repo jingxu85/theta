@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/thetatoken/theta/common"
+	"github.com/jingxu85/theta/common"
 )
 
 var (

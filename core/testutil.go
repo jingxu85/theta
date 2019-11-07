@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/crypto"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/crypto"
 )
 
 var TestBlocks map[string]*Block = make(map[string]*Block)

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/thetatoken/theta/crypto"
-	ks "github.com/thetatoken/theta/wallet/softwallet/keystore"
+	"github.com/jingxu85/theta/crypto"
+	ks "github.com/jingxu85/theta/wallet/softwallet/keystore"
 )
 
 //

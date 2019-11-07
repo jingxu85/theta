@@ -17,9 +17,9 @@ import (
 
 	phorebls "github.com/phoreproject/bls"
 	"github.com/pkg/errors"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/rlp"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/crypto"
+	"github.com/jingxu85/theta/rlp"
 )
 
 // WIP: See BLS standardisation process:

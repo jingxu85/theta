@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/thetatoken/theta/crypto"
+	"github.com/jingxu85/theta/crypto"
 )
 
 var dumpEnc bool

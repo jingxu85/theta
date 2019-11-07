@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/ledger/state"
-	"github.com/thetatoken/theta/ledger/types"
-	"github.com/thetatoken/theta/ledger/vm/params"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/ledger/state"
+	"github.com/jingxu85/theta/ledger/types"
+	"github.com/jingxu85/theta/ledger/vm/params"
 )
 
 // Execute executes the given smart contract

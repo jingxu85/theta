@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/thetatoken/theta/crypto"
+	"github.com/jingxu85/theta/crypto"
 )
 
 type PrivAccount struct {

@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/math"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/common/math"
 )
 
 // calculates the memory size required for a step

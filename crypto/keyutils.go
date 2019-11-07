@@ -29,10 +29,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/math"
-	"github.com/thetatoken/theta/crypto/sha3"
-	"github.com/thetatoken/theta/rlp"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/common/math"
+	"github.com/jingxu85/theta/crypto/sha3"
+	"github.com/jingxu85/theta/rlp"
 )
 
 var (

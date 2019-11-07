@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/thetatoken/theta/ledger/vm/params"
+	"github.com/jingxu85/theta/ledger/vm/params"
 )
 
 type (

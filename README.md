@@ -24,16 +24,16 @@ brew install go@1.9
 brew link go@1.9 --force
 ```
 
-Clone this repo into your `$GOPATH`. The path should look like this: `$GOPATH/src/github.com/thetatoken/theta`
+Clone this repo into your `$GOPATH`. The path should look like this: `$GOPATH/src/github.com/jingxu85/theta`
 
 ```
-git clone https://github.com/thetatoken/theta-protocol-ledger.git $GOPATH/src/github.com/thetatoken/theta
+git clone https://github.com/jingxu85/theta-protocol-ledger.git $GOPATH/src/github.com/jingxu85/theta
 ```
 
 Install [glide](https://github.com/Masterminds/glide). Then execute the following commands to download all dependencies:
 
 ```
-export THETA_HOME=$GOPATH/src/github.com/thetatoken/theta
+export THETA_HOME=$GOPATH/src/github.com/jingxu85/theta
 cd $THETA_HOME
 make get_vendor_deps
 ```
@@ -74,17 +74,17 @@ Run the following command
 ```
 choco install jq
 ```
-Then, use the installed [Cygwin terminal](https://www.cygwin.com/) to run the following commands. Clone this repo into your `$GOPATH`. The path should look like this: `$GOPATH/src/github.com/thetatoken/theta`
+Then, use the installed [Cygwin terminal](https://www.cygwin.com/) to run the following commands. Clone this repo into your `$GOPATH`. The path should look like this: `$GOPATH/src/github.com/jingxu85/theta`
 
 ```bash
-git clone git@github.com:thetatoken/theta-protocol-ledger.git $GOPATH/src/github.com/thetatoken/theta
+git clone git@github.com:jingxu85/theta-protocol-ledger.git $GOPATH/src/github.com/jingxu85/theta
 ```
 
 Install [Glide](https://github.com/Masterminds/glide). 
 Then execute the following commands to download all dependencies:
 
 ```bash
-export THETA_HOME=$GOPATH/src/github.com/thetatoken/theta
+export THETA_HOME=$GOPATH/src/github.com/jingxu85/theta
 cd $THETA_HOME
 make tools
 glide install
@@ -234,4 +234,4 @@ The return should look like the json below. As we can see, 100 TFuel (= 10000000
     ...
 }
 ```
-From the reserved fund, the sender can send tokens to multiple parties with a special off-chain [Service Payment Transaction](https://github.com/thetatoken/theta-protocol-ledger/blob/ed3d616eca7e3de2c19f63351716aba7547a1e4c/ledger/types/tx.go#L321). Before the reserved fund expires (1002 blocktimes), whenever a recipient wants to receive the tokens, he simply signs the last received service payment transaction, and [submits the signed raw transaction to the Ledger node](https://github.com/thetatoken/theta-protocol-ledger/blob/ed3d616eca7e3de2c19f63351716aba7547a1e4c/rpc/tx.go#L11). A sender might send the recipient multiple off-chain transactions before the recipient signs and submits the last transaction to receive the full amount. This mechanism achieves the "pay-per-byte" granularity, and yet could reduce the amount of on-chain transactions by several orders of magnitude. For more details, please refer to the "Off-Chain Micropayment Support" section of our [technical whitepaper](docs/theta-technical-whitepaper.pdf).
+From the reserved fund, the sender can send tokens to multiple parties with a special off-chain [Service Payment Transaction](https://github.com/jingxu85/theta-protocol-ledger/blob/ed3d616eca7e3de2c19f63351716aba7547a1e4c/ledger/types/tx.go#L321). Before the reserved fund expires (1002 blocktimes), whenever a recipient wants to receive the tokens, he simply signs the last received service payment transaction, and [submits the signed raw transaction to the Ledger node](https://github.com/jingxu85/theta-protocol-ledger/blob/ed3d616eca7e3de2c19f63351716aba7547a1e4c/rpc/tx.go#L11). A sender might send the recipient multiple off-chain transactions before the recipient signs and submits the last transaction to receive the full amount. This mechanism achieves the "pay-per-byte" granularity, and yet could reduce the amount of on-chain transactions by several orders of magnitude. For more details, please refer to the "Off-Chain Micropayment Support" section of our [technical whitepaper](docs/theta-technical-whitepaper.pdf).

@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/result"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/rlp"
-	"github.com/thetatoken/theta/store/trie"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/common/result"
+	"github.com/jingxu85/theta/crypto"
+	"github.com/jingxu85/theta/rlp"
+	"github.com/jingxu85/theta/store/trie"
 )
 
 const (

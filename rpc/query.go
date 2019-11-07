@@ -8,15 +8,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/thetatoken/theta/crypto/bls"
+	"github.com/jingxu85/theta/crypto/bls"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/core"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/ledger/state"
-	"github.com/thetatoken/theta/ledger/types"
-	"github.com/thetatoken/theta/mempool"
-	"github.com/thetatoken/theta/version"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/core"
+	"github.com/jingxu85/theta/crypto"
+	"github.com/jingxu85/theta/ledger/state"
+	"github.com/jingxu85/theta/ledger/types"
+	"github.com/jingxu85/theta/mempool"
+	"github.com/jingxu85/theta/version"
 )
 
 // ------------------------------- GetVersion -----------------------------------

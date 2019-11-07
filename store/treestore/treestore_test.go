@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/store/database"
-	"github.com/thetatoken/theta/store/database/backend"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/store/database"
+	"github.com/jingxu85/theta/store/database/backend"
 )
 
 func newTestTreeStore() (database.Database, func()) {

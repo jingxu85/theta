@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/thetatoken/theta/blockchain"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/core"
-	"github.com/thetatoken/theta/crypto"
-	"github.com/thetatoken/theta/store/database/backend"
-	"github.com/thetatoken/theta/store/kvstore"
+	"github.com/jingxu85/theta/blockchain"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/core"
+	"github.com/jingxu85/theta/crypto"
+	"github.com/jingxu85/theta/store/database/backend"
+	"github.com/jingxu85/theta/store/kvstore"
 )
 
 type MockValidatorManager struct {

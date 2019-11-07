@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/thetatoken/theta/p2p/netutil"
+	"github.com/jingxu85/theta/p2p/netutil"
 )
 
 //

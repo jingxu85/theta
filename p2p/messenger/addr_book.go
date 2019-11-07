@@ -19,10 +19,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/thetatoken/theta/common"
-	mm "github.com/thetatoken/theta/common/math"
-	"github.com/thetatoken/theta/crypto"
-	nu "github.com/thetatoken/theta/p2p/netutil"
+	"github.com/jingxu85/theta/common"
+	mm "github.com/jingxu85/theta/common/math"
+	"github.com/jingxu85/theta/crypto"
+	nu "github.com/jingxu85/theta/p2p/netutil"
 )
 
 const (

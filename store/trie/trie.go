@@ -23,12 +23,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/thetatoken/theta/store"
-	"github.com/thetatoken/theta/store/database"
+	"github.com/jingxu85/theta/store"
+	"github.com/jingxu85/theta/store/database"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/metrics"
-	"github.com/thetatoken/theta/crypto"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/common/metrics"
+	"github.com/jingxu85/theta/crypto"
 )
 
 var (

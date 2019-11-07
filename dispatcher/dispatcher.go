@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/p2p"
-	p2ptypes "github.com/thetatoken/theta/p2p/types"
-	"github.com/thetatoken/theta/p2pl"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/p2p"
+	p2ptypes "github.com/jingxu85/theta/p2p/types"
+	"github.com/jingxu85/theta/p2pl"
 )
 
 //

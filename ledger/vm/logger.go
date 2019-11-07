@@ -23,9 +23,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/hexutil"
-	"github.com/thetatoken/theta/common/math"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/common/hexutil"
+	"github.com/jingxu85/theta/common/math"
 )
 
 // Storage represents a contract's storage.

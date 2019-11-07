@@ -3,8 +3,8 @@ package keystore
 import (
 	"github.com/pborman/uuid"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/crypto"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/crypto"
 )
 
 type Key struct {

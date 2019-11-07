@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/thetatoken/theta/core"
+	"github.com/jingxu85/theta/core"
 )
 
 func TestChainUtil(t *testing.T) {

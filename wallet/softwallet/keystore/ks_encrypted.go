@@ -45,9 +45,9 @@ import (
 
 	"github.com/pborman/uuid"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/math"
-	"github.com/thetatoken/theta/crypto"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/common/math"
+	"github.com/jingxu85/theta/crypto"
 
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"

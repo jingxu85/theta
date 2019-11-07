@@ -9,11 +9,11 @@ import (
 	"strings"
 
 	"github.com/spf13/viper"
-	"github.com/thetatoken/theta/blockchain"
-	"github.com/thetatoken/theta/core"
-	"github.com/thetatoken/theta/snapshot"
-	"github.com/thetatoken/theta/store/database/backend"
-	"github.com/thetatoken/theta/store/kvstore"
+	"github.com/jingxu85/theta/blockchain"
+	"github.com/jingxu85/theta/core"
+	"github.com/jingxu85/theta/snapshot"
+	"github.com/jingxu85/theta/store/database/backend"
+	"github.com/jingxu85/theta/store/kvstore"
 )
 
 func handleError(err error) {

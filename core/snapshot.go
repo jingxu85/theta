@@ -9,8 +9,8 @@ import (
 	"io"
 	"os"
 
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/rlp"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/rlp"
 )
 
 const BlockTrioStoreKeyPrefix = "prooftrio_"

@@ -2,10 +2,10 @@ package consensus
 
 import (
 	log "github.com/sirupsen/logrus"
-	"github.com/thetatoken/theta/common"
-	"github.com/thetatoken/theta/common/util"
-	"github.com/thetatoken/theta/core"
-	"github.com/thetatoken/theta/crypto/bls"
+	"github.com/jingxu85/theta/common"
+	"github.com/jingxu85/theta/common/util"
+	"github.com/jingxu85/theta/core"
+	"github.com/jingxu85/theta/crypto/bls"
 )
 
 const (

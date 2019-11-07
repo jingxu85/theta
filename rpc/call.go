@@ -1,7 +1,7 @@
 package rpc
 
 import (
-	"github.com/thetatoken/theta/common"
+	"github.com/jingxu85/theta/common"
 )
 
 // ------------------------------- CallSmartContract -----------------------------------

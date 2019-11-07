@@ -1,1 +1,1 @@
-module github.com/thetatoken/theta/common
+module github.com/jingxu85/theta/common

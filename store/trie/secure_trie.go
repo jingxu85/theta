@@ -18,7 +18,7 @@
 package trie
 
 import (
-	"github.com/thetatoken/theta/common"
+	"github.com/jingxu85/theta/common"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

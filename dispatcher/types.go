@@ -1,7 +1,7 @@
 package dispatcher
 
 import (
-	"github.com/thetatoken/theta/common"
+	"github.com/jingxu85/theta/common"
 )
 
 // MaxInventorySize defines the max number of items in InventoryRequest/InventoryResponse.

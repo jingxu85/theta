@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/thetatoken/theta/crypto"
+	"github.com/jingxu85/theta/crypto"
 )
 
 // --------------- Test Utilities --------------- //
